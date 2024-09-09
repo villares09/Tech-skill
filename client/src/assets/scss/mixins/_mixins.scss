@@ -1,0 +1,167 @@
+@import "/src/assets/scss/variables/_variables.scss";
+// Mixin
+
+@mixin Pill {
+  .bz-pill {
+    // height: 22px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 22px;
+    width: fit-content;
+    text-align: center;
+    padding: 4px 8px;
+    color: $white;
+    font-weight: $weight-medium;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+
+    &--Red {
+      @extend .bz-pill;
+      background-color: #ffe4e5;
+      color: #540001;
+    }
+
+    &--Green {
+      @extend .bz-pill;
+      background-color: #e1fbe7;
+      font-weight: $weight-bold;
+      color: #005016;
+    }
+
+    &--Yellow {
+      @extend .bz-pill;
+      background-color: #fff4de;
+      color: #7d4900;
+    }
+  }
+}
+
+@mixin Arrow {
+  content: "";
+  display: inline-block;
+  position: relative,
+    transparent;
+  height: 10px;
+  background-size: 7px auto;
+  width: 10px;
+}
+
+@mixin boxExclamationFooter {
+  background-size: 23px auto;
+  border-radius: 5px;
+  padding: 10px 20px 10px 45px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+//agregado dot @agus
+@mixin Dot($color) {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: $color;
+  vertical-align: middle;
+}
+
+@mixin iconCamRepeat {
+  .bz-icon {
+    border-radius: 30px;
+    bottom: 20px;
+    display: block;
+    left: calc(50% - 28px);
+    height: 57px;
+    position: absolute;
+    width: 57px;
+    z-index: 2;
+
+  }
+}
+
+@mixin boxHeader {
+  .bz-imgBoxHeader {
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: $white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    &--red {
+      @extend .bz-imgBoxHeader;
+      background-color: $red;
+    }
+
+    &--blue {
+      @extend .bz-imgBoxHeader;
+      background-color: $blue;
+    }
+
+    &--green {
+      @extend .bz-imgBoxHeader;
+      background-color: $green;
+    }
+
+    span {
+      font-size: 16px;
+      padding-right: 35px;
+      position: relative;
+
+  }
+}
+
+// Small devices
+@mixin xs {
+  @media (max-width: #{$xs}) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$sm}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$medium}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$lg}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$xl}) {
+    @content;
+  }
+}
+
+@mixin leftLine {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 4px;
+  left: 0px;
+  background-color: red;
+} 
+
+}

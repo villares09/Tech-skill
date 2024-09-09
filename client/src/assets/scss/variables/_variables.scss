@@ -1,0 +1,122 @@
+//UI KIT COLORS
+//NEUTRAL
+$black: #030303;
+$white: #ffffff;
+$neutral-0: #191a1b;
+$neutral-1: #474748;
+$neutral-2: #757576;
+$neutral-3: #a3a3a3;
+$neutral-4: #d1d1d1;
+$neutral-5: #f3f3f3;
+$neutral-6: #f9f9f9;
+//Primary
+$primary-0: #0020e2;
+$primary-1: #1f65ff;
+$primary-2: #4b83ff;
+$primary-3: #78a2ff;
+$primary-4: #a5c1ff;
+$primary-5: #d2e0ff;
+$primary-6: #f3f7ff;
+//Secondary
+$secondary-0: #3700bb;
+$secondary-1: #6200ee;
+$secondary-2: #8133f1;
+$secondary-3: #a066f5;
+$secondary-4: #c099f8;
+$secondary-5: #dfccfc;
+$secondary-6: #f7f2ff;
+//Terciary
+$terciary-0: #ff490a;
+$terciary-1: #ff7c1f;
+$terciary-2: #ff964b;
+$terciary-3: #ffb078;
+$terciary-4: #ffcaa5;
+$terciary-5: #ffe5d2;
+$terciary-6: #fff8f3;
+//Feedback
+$error-light: #ffe4e5;
+$error-main: #ff3e3e;
+$error-dark: #540001;
+$warning-light: #ffe4e5;
+$warning-main: #ffc523;
+$warning-dark: #7d4900;
+$success-light: #e1fbe7;
+$success-main: #23ce51;
+$success-dark: #005016;
+$info-light: #eaf1fb;
+$info-main: #4b83ff;
+$info-dark: #001437;
+
+//Lo de abajo no debería ir más
+
+// Color Variable
+// $grey: rgba($black, 0.5);
+$darkGrey: rgba($black, 0.8);
+$lightGrey: rgba($black, 0.05);
+$softGrey: rgba($black, 0.1);
+
+$uiSoftGray: #F3F3F3;
+
+$mediumLowGrey: #757576;
+$grey: rgba($black, 0.5);
+
+$firstStockItem: #1F65FF;
+$secondStockItem: #6200EE;
+$thrithStockItem: #79E5FC;
+$fourthStockItem: #F5DF00;
+$fivethStockItem: #FF97D3;
+$sixthStockItem: #001437;
+
+$mediumGrey: #6b6b6b;
+$blackSoft: #333333;
+
+$blue: #1f65ff;
+$lightblue: rgba($blue, 0.05);
+$mediumSoftBlue: rgba($blue, 0.5);
+$softBlue: rgba($blue, 0.8);
+
+$green: #23CE51;
+$softGreen: rgba($green, 0.8);
+
+$red: #FF3E3E;
+$tea: #18935f;
+$purple: #6200ee;
+$lightPurple: rgba($purple, 0.2);
+$softPurple: rgba($purple, 0.5);
+
+$yellow: #ffb700;
+
+$font-xsmall: 12px;
+$font-small: 14px;
+$font-normal: 16px;
+$font-medium: 18px;
+$font-xmedium: 20px;
+$font-large: 30px;
+$font-xlarge: 34px;
+
+$grey-onboarding: #515252;
+$lightGrey-onboarding: #717171;
+$grey-legend: #f1f1f1;
+
+$disabled-btn: #acaeaf;
+
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-bold: 500; //Se cambia a 500 para no tocar todos los otros lugares ahora
+
+$grey-card-heading:#a3a3a3;
+
+$small: 600px;
+$medium: 1023px;
+$extraLarge: 1536px;
+
+$xs: 0px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+$bs-right: 3px 0px 6px rgba(25, 26, 27, 0.15);
+$bs-down: 0px 3px 6px rgba(25, 26, 27, 0.15);
+$bs-up: 0px -3px 6px rgba(25, 26, 27, 0.15);
+$bs-left: -3px 0px 6px rgba(25, 26, 27, 0.15);
