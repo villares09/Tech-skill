@@ -51,3 +51,5 @@ bash
 
 npm start
 The server will start and listen on the port specified in the .env file.
+
+the endpoint checkBorderCountries dont work becouse the documentation is not up to this date 
